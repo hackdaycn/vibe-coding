@@ -1,0 +1,38 @@
+# 通用
+.git/
+.gitignore
+.DS_Store
+Thumbs.db
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志与临时文件
+**/*.log
+**/logs/
+**/tmp/
+**/temp/
+sys-info.log
+sys-user.log
+sys-error.log
+
+# 依赖目录
+**/node_modules/
+**/bower_components/
+**/.pnp/
+**/.yarn/
+
+# 构建产物
+**/dist/
+**/build/
+**/coverage/
+**/.turbo/
+**/.cache/
+**/.next/
+**/out/
+**/.nuxt/
+
+# 各子项目常见生成目录（按需生效）
